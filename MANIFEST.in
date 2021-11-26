@@ -1,0 +1,2 @@
+include CHANGES README LICENSE Makefile pyproject.toml setup.py
+recursive-include src *
