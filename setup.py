@@ -22,7 +22,7 @@ if __name__ == '__main__':
         packages=find_packages(),
         version='0.1.0',
         description='A python Yaml parser and dumper based on PyYAML',
-        long_description=open('README.rst').read(),
+        long_description=open('README.md').read(),
         keywords = ['yaml', 'parser', 'dumper'],
         author='Alfred TCHONDJO',
         author_email='atchondjo@gmail.com',
