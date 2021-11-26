@@ -1,2 +1,2 @@
-include README LICENSE Makefile pyproject.toml setup.py
+include README.md LICENSE pyproject.toml setup.py
 recursive-include src *
