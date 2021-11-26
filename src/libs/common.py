@@ -38,6 +38,12 @@
 import os
 import sys
 
+currentdir = os.path.dirname(os.path.realpath(__file__))
+parentDirectory = os.path.dirname(currentdir)
+srcDirectory = os.path.dirname(parentDirectory)
+sys.path.append(os.path.abspath(parentDirectory))
+sys.path.append(os.path.abspath(srcDirectory))
+
 def main(filePath:str = __file__)->str:
     return 'Direct access not allowed to: ' + os.path.basename(filePath)
 
