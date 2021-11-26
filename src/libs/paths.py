@@ -42,7 +42,9 @@ import errno
 
 currentdir = os.path.dirname(os.path.realpath(__file__))
 parentDirectory = os.path.dirname(currentdir)
+srcDirectory = os.path.dirname(parentDirectory)
 sys.path.append(os.path.abspath(parentDirectory))
+sys.path.append(os.path.abspath(srcDirectory))
 
 from libs.common import main, singleton
 
