@@ -1,1 +1,2 @@
-
+pkgutil>=3.9.4
+PyYAML>=5.4.1
